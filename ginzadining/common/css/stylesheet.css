@@ -85,6 +85,7 @@ a:hover{
 }
 .header h1{
     text-align: center;
+    padding-top: 40px;
 }
 .header a{
     color: white;
@@ -93,13 +94,13 @@ a:hover{
 }
 .header .mitsukoshi{  
     position: relative;
-    top: -80px;
-    right: 10px;
+    top: -200px;
+    right: 30px;
 }
 .header .fb{  
     position: relative;
-    top: -40px;
-    left: 40px;
+    top: -100px;
+    left: 950px;
 }
 
 .header ul{
@@ -118,7 +119,14 @@ a:hover{
 .header .top{
     background-color: white;
 }
+.header ul li p{
+    text-align: center;
+    padding-top: 50px;
+}
 
+/*.header ul li p .campaign{
+    padding-top: 20px;
+}*/
 
 /*------------------------------------------------
     search
@@ -138,6 +146,9 @@ a:hover{
     border: solid 1px black;
     background-color: black;
 }*/
+#menu_top, #menu_bottom{
+    height: 24px;
+}
 .menu{
     width: 990px;
     height: 198px;
@@ -205,9 +216,16 @@ div #small_menu{
 --------------------------------------------------*/
 .news p{
     width: 1080px;
-    height: 114px;
+    height: 84px;
     font-size: 48px;
+    padding-top: 30px;
+    padding-left: 114px;
     border-bottom:  solid 1px #ede7be;
+}
+.news img{
+    padding-top: 84px;
+    padding-bottom: 84px;
+    padding-left: 477px;
 }
 
 /*------------------------------------------------
@@ -221,9 +239,14 @@ h2{
     color: white;
     font-size: 56px;
     weight:1080px;
-    height: 118px;
+    height: 98px;
     padding-left: 66px;
+    padding-top: 20px;
 
+}
+div .span{
+    height: 84px;
+    background-color: white;
 }
 
 /*------------------------------------------------
@@ -231,16 +254,16 @@ h2{
 --------------------------------------------------*/
 .footer li{
     width: 1035px;
-    height: 147px;
+    height: 107px;
     padding-left: 45px;
     font-size: 45px;
     color: white;
     background-color: #69685a;
     padding-left: 45px;
-    padding-top: 0px;
+    padding-top: 40px;
     margin-bottom: 4px;
 }
-.footer a{
+.footer p{
     font-size: 36px;
     text-align: center;
 }
