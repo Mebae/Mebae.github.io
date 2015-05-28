@@ -150,7 +150,6 @@ $(function () {
         }
     });
     $("#lunch_menu").click(function(){
-        // $("#lunch_list").toggleClass('hide_list');
         if ( $("#lunch_list").hasClass('hide_list')) {
             $("#lunch_list").slideDown();
             $("#lunch_list").toggleClass('hide_list');
@@ -161,7 +160,6 @@ $(function () {
         }
     });
     $("#genre_menu").click(function(){
-        // $("#genre_list").toggleClass('hide_list');
        if ( $("#genre_list").hasClass('hide_list')) {
             $("#genre_list").slideDown();
             $("#genre_list").toggleClass('hide_list');
@@ -172,7 +170,6 @@ $(function () {
         }       
     });
     $("#floor_menu").click(function(){
-        // $("#floor_list").toggleClass('hide_list');
        if ( $("#floor_list").hasClass('hide_list')) {
             $("#floor_list").slideDown();
             $("#floor_list").toggleClass('hide_list');
@@ -183,7 +180,6 @@ $(function () {
         } 
     });
     $("#alcohol_menu").click(function(){
-        // $("#alcohol_list").toggleClass('hide_list');
        if ( $("#alcohol_list").hasClass('hide_list')) {
             $("#alcohol_list").slideDown();
             $("#alcohol_list").toggleClass('hide_list');
