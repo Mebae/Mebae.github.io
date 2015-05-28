@@ -78,6 +78,9 @@ a:hover{
 /*------------------------------------------------
     header
 --------------------------------------------------*/
+.header{
+    color: #69685a;
+}
 .header_top{
     width: 1080px;
     height: 276px;
@@ -95,7 +98,10 @@ a:hover{
 .header .mitsukoshi{  
     position: relative;
     top: -200px;
-    right: 30px;
+    right: 50px;
+    font-family: "helvetica";
+    font-size: 32px;
+    text-decoration: none;    
 }
 .header .fb{  
     position: relative;
@@ -143,6 +149,7 @@ a:hover{
 .search{
     background-color: #ede7be;
     font-size: 48px;
+    color: #69685a;
 }
 .hide_list{
     display: none;
@@ -230,6 +237,7 @@ div #small_menu{
     padding-top: 30px;
     padding-left: 114px;
     border-bottom:  solid 1px #ede7be;
+    color: #69685a;
 }
 .news img{
     padding-top: 84px;
@@ -278,6 +286,7 @@ div .span{
 .footer p{
     font-size: 36px;
     text-align: center;
+    color: #69685a;
 }
 
 
@@ -310,7 +319,7 @@ div .span{
 }
 .slideshow_slides .slide img {
     left: 50%;
-    margin-left: -800px;
+    margin-left: -540px;    /*変更*/
     position: absolute;
 }
 
