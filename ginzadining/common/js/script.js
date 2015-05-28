@@ -140,23 +140,73 @@ $(function () {
      */
 
     $("#dinner_menu").click(function(){
-        $("#dinner_list").toggleClass('hide_list');
+        if ( $("#dinner_list").hasClass('hide_list')) {
+            $("#dinner_list").slideDown();
+            $("#dinner_list").toggleClass('hide_list');
+        }
+        else{
+            $("#dinner_list").slideUp();
+            $("#dinner_list").toggleClass('hide_list');
+        }
     });
     $("#lunch_menu").click(function(){
-        $("#lunch_list").toggleClass('hide_list');
+        // $("#lunch_list").toggleClass('hide_list');
+        if ( $("#lunch_list").hasClass('hide_list')) {
+            $("#lunch_list").slideDown();
+            $("#lunch_list").toggleClass('hide_list');
+        }
+        else{
+            $("#lunch_list").slideUp();
+            $("#lunch_list").toggleClass('hide_list');
+        }
     });
     $("#genre_menu").click(function(){
-        $("#genre_list").toggleClass('hide_list');
+        // $("#genre_list").toggleClass('hide_list');
+       if ( $("#genre_list").hasClass('hide_list')) {
+            $("#genre_list").slideDown();
+            $("#genre_list").toggleClass('hide_list');
+        }
+        else{
+            $("#genre_list").slideUp();
+            $("#genre_list").toggleClass('hide_list');
+        }       
     });
     $("#floor_menu").click(function(){
-        $("#floor_list").toggleClass('hide_list');
+        // $("#floor_list").toggleClass('hide_list');
+       if ( $("#floor_list").hasClass('hide_list')) {
+            $("#floor_list").slideDown();
+            $("#floor_list").toggleClass('hide_list');
+        }
+        else{
+            $("#floor_list").slideUp();
+            $("#floor_list").toggleClass('hide_list');
+        } 
     });
     $("#alcohol_menu").click(function(){
-        $("#alcohol_list").toggleClass('hide_list');
+        // $("#alcohol_list").toggleClass('hide_list');
+       if ( $("#alcohol_list").hasClass('hide_list')) {
+            $("#alcohol_list").slideDown();
+            $("#alcohol_list").toggleClass('hide_list');
+        }
+        else{
+            $("#alcohol_list").slideUp();
+            $("#alcohol_list").toggleClass('hide_list');
+        }         
     });
 
 
+    /*
+     * ページ内リンク
+     */
 
+     $('a[href^=#]').click(function(){
+        var speed = 500;
+        var href= $(this).attr("href");
+        var target = $(href == "#" || href == "" ? 'html' : href);
+        var position = target.offset().top;
+        $("html, body").animate({scrollTop:position}, speed, "swing");
+        return false;
+    });
 
 
 

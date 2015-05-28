@@ -56,15 +56,15 @@ ul, ol{
     list-style: none;
 }
 a:link{
-    color: #e4cfae;
-    text-decoration: underline;
+    color: white;
+    text-decoration: none;
 }
 a:visited{
-    color: #e4cfae;
-    text-decoration: underline;
+    color: white;
+    text-decoration: none;
 }
 a:hover{
-    color: #ccc9d6;
+    color: white;
     text-decoration: none;
 }
 .clearfix:after{
@@ -91,7 +91,6 @@ a:hover{
     padding-top: 40px;
 }
 .header a{
-    color: white;
     font-size: 15px;
     float:right;
 }
@@ -99,9 +98,8 @@ a:hover{
     position: relative;
     top: -200px;
     right: 50px;
-    font-family: "helvetica";
-    font-size: 32px;
-    text-decoration: none;    
+    font-family: "Verdana";
+    font-size: 32px;  
 }
 .header .fb{  
     position: relative;
@@ -135,15 +133,8 @@ a:hover{
     position: relative;
     top: 25px;
     line-height: 50px;
-    /*padding-top: 25px;*/
 }
 
-
-
-
-/*.header ul li p .campaign{
-    padding-top: 20px;
-}*/
 
 /*------------------------------------------------
     search
@@ -156,14 +147,7 @@ a:hover{
 .hide_list{
     display: none;
 }
-/*li .menu{
-    width: 1080px;
-    height: 198px;
-    margin-bottom: 18px;
 
-    border: solid 1px black;
-    background-color: black;
-}*/
 #menu_top, #menu_bottom{
     height: 24px;
 }
@@ -173,12 +157,7 @@ a:hover{
     margin-left: 45px;
     margin-top: 18px;
 }
-/*.search ul li p{
-    position: relative;
-    top: -160px;
-    right: -348px; 
-    font-size: 60px;
-}*/
+
 .search ul li p{
     position: relative;
     top: -216px;
@@ -263,6 +242,7 @@ body{
     width: 1080px;
 }
 .wrapper{
+    width: 1080px;
     overflow-x: hidden; 
 }
 h2{
@@ -292,6 +272,9 @@ div .span{
     background-color: #69685a;
     padding-left: 45px;
     margin-bottom: 4px;
+}
+.footer a{
+    color: white;
 }
 .footer p{
     font-size: 36px;
@@ -428,13 +411,5 @@ body{
     /*border:  solid 1px black;*/
     /*overflow-x: hidden; */
 }
-.wrapper{
-    width: 1080px;
-    overflow-x: hidden; 
-}
 
 
-
-/*.footer{
-    border: solid 1px black;
-}*/
