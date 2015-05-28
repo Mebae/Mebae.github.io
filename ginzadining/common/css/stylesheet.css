@@ -112,7 +112,7 @@ a:hover{
     line-height:56px;
     width: 350px;
     height: 150px;
-    margin: 4px;
+    margin: 5px;
 
     background-color: #f5f4e1;
 }
@@ -121,8 +121,17 @@ a:hover{
 }
 .header ul li p{
     text-align: center;
+    /*padding-top: 50px;*/
+}
+.header ul li .short{
     padding-top: 50px;
 }
+.header ul li .long{
+    padding-top: 25px;
+}
+
+
+
 
 /*.header ul li p .campaign{
     padding-top: 20px;
@@ -195,7 +204,7 @@ a:hover{
 div #small_menu{
     width: 1080px;
     height: 468px;
-    padding-left: 44px;
+    padding-left: 60px;
 }
 #small_menu li {
     width: 462px;
@@ -233,6 +242,9 @@ div #small_menu{
 --------------------------------------------------*/
 body{
     width: 1080px;
+}
+.wrapper{
+    overflow-x: hidden; 
 }
 h2{
     background-color: #69685a;
@@ -395,8 +407,11 @@ div .span{
 body{
     /*background-color: whitesmoke;*/ 
     /*border:  solid 1px black;*/
+    /*overflow-x: hidden; */
 }
-
+.wrapper{
+    overflow-x: hidden; 
+}
 
 
 
